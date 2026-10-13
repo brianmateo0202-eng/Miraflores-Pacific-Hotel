@@ -849,3 +849,40 @@ input[type=radio],input[type=checkbox] {
     transition:none!important
   }
 }
+@keyframes girar {
+    to {
+        transform: rotate(360deg);
+    }
+}
+#pantalla-carga {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: #20384f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+  .circulo {
+    width: 65px;
+    height: 65px;
+    border: 2px solid #ffffff35;
+    border-top-color: #c9ad78;
+    border-right-color: #c9ad78;
+    border-radius: 50%;
+    animation: girar 1.2s linear infinite;
+}
+#pantalla-carga {
+    animation: ocultar 1s ease 3s forwards;
+pointer-events: none;
+}
+
+@keyframes ocultar {
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
