@@ -1,0 +1,22 @@
+.location-section {
+  background:#eaf0f5;
+  padding-block:80px
+}
+.location-grid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:90px;
+  align-items:center
+}
+.location-card {
+  border:1px solid #cbd8e3;
+  padding:48px;
+  background:#ffffff80
+}
+.location-card h3 {
+  font-family:var(--serif);
+  font-size:2rem
+}
+.location-card p:not(.eyebrow) {
+  color:var(--muted)
+}

@@ -1,0 +1,25 @@
+.service-grid {
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:30px;
+  margin-top:44px
+}
+.service-grid article {
+  border-top:1px solid var(--line);
+  padding-top:25px
+}
+.service-number {
+  display:block;
+  color:#728eaa;
+  font-family:var(--serif);
+  font-size:1.8rem;
+  margin-bottom:28px
+}
+.service-grid h3 {
+  font-family:var(--serif);
+  font-size:1.4rem
+}
+.service-grid p {
+  font-size:.85rem;
+  color:var(--muted)
+}

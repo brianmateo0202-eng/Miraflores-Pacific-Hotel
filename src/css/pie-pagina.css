@@ -1,0 +1,38 @@
+.site-footer {
+  background:#182d40;
+  color:#dae4ed;
+  padding-top:62px;
+  font-size:.83rem
+}
+.footer-top {
+  display:grid;
+  grid-template-columns:1.5fr 1fr 1fr;
+  gap:48px;
+  padding-bottom:44px
+}
+.footer-brand {
+  font-family:var(--serif);
+  font-size:1.55rem;
+  color:#fff
+}
+.site-footer .eyebrow {
+  color:#a8bfd4;
+  font-size:.62rem
+}
+.footer-top a {
+  display:block;
+  margin-bottom:9px
+}
+.site-footer a:hover {
+  color:#fff;
+  text-decoration:underline
+}
+.footer-bottom {
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  border-top:1px solid #ffffff20;
+  padding-block:22px;
+  color:#a3b6c6;
+  font-size:.68rem
+}
